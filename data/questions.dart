@@ -2,54 +2,92 @@ import 'package:quizapp/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'How many Dragon Balls are there?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Seven',
+      'Six',
+      'Five',
+      'Eight',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+      'Whose body gained the properties of rubber after unintentionally eating a Devil Fruit?',
+      [
+        'Monkey D. Luffy',
+        'Monkey D. Dragon',
+        'Naruto Uzumaki',
+        'Monkey D. Garp',
+      ]),
+  QuizQuestion(
+    'Can you name the director of the ‘Death Note’ 2017 Movie?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
+      'Adam Wingard',
+      'Emma Sullivan',
+      'Hayato Date',
+      'Makoto Shinkai',
+    ],
+  ),
+  QuizQuestion(
+    'What is actually manga?',
+    [
+      'A form of animation',
+      'A form of comics',
+      'A form of video game'
       'None of the above',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'What is the name of the guy that made naruto?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Masashi Kishimoto',
+      'Eiichiro Oda',
+      'Akira Toriyama',
+      'Gege Akutami',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Who is the god and creator of all demons?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Muzan',
+      'Akaza', 
+      'Gyokko', 
+      'Kyogai', 
+    ],
+  ),
+  QuizQuestion(
+    'How many hashiras are there?',
+    [
+      '9',
+      '20',
+      '15',
+      '8',
+    ],
+  ),
+  QuizQuestion(
+    'Who is the "Child Of Prophecy"?',
+    [
+      'Naruto',
+      'Nagato',
+      'Sasuke',
+      'Yahiko',
+    ],
+  ),
+  QuizQuestion(
+    "What is the name of the Curse occupying Yuji Itadori's body in ‘Death Note’?",
+    [
+      'Ryomen Sukuna',
+      'Jogo',
+      'Gojo Saturu',
+      'Mahito',     
+    ],
+  ),
+  QuizQuestion(
+    "Who is Nanami's voice actor JJK?",
+    [
+      'Kenjiro Tsuda',
+      'Mamoru Miyano',
+      'Yuichi Nakamura',
+      'Natsuki Hanae',
     ],
   ),
 ];
